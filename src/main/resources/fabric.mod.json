@@ -16,14 +16,6 @@
   "license": "MIT",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "me.basiqueevangelist.regrouped.Regrouped"
-    ]
-  },
-  "mixins": [
-    "regrouped.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
