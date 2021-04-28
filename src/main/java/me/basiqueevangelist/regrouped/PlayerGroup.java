@@ -11,9 +11,17 @@ public interface PlayerGroup {
 
     boolean canChangeMembers();
 
-    void addMember(UUID uuid);
+    /**
+     * Adds a player to the group.
+     * @return Returns true if adding the player succeeded, false otherwise.
+     */
+    boolean addMember(UUID uuid);
 
-    void removeMember(UUID uuid);
+    /**
+     * Removes a player from the group.
+     * @return Returns true if removing the player succeeded, false otherwise.
+     */
+    boolean removeMember(UUID uuid);
 
     String getName();
 
